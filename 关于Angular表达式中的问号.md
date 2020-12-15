@@ -47,7 +47,7 @@ return new Error().stack?.split('\n');
 // 以上代码等同以下代码
 const err = new Error();
 return err.stack && err.stack.split('\n');
-``
+```
 person?.name?.firstName 可以理解成 person && person.name && person.firstName,在试图访问的属性后面加上小问号就是 if not undefined 的逻辑
 
 ## typescript中除了问号，还有个感叹号用处也很多:
