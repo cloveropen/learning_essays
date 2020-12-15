@@ -12,6 +12,7 @@
 values != null ? values.listArray: null
 ```
 不过tyepscript中问号的作用不止于此，分别是:
+
 .  三元运算符
 ```
 // 当 isNumber(input) 为 True 是返回 ? : 之间的部分； isNumber(input) 为 False 时
@@ -22,6 +23,7 @@ const a = isNumber(input) ? input : String(input);
 function getUser(user: string, field?: string) {
 }
 ```
+
 . 成员
 ```
 // 这里的？表示这个name属性有可能不存在
